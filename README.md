@@ -13,13 +13,23 @@ Patrón MVC en Spring:
 
 **2. Spring Boot**
 
+Es una infraestructura ligera que elimina la mayor parte del trabajo de configurar las aplicaciones basadas en Spring.
+
 **3. Gradle**
+
+Es un sistema de automatización de construcción de código abierto que construye sobre los conceptos de Apache Ant y Apache Maven e introduce un lenguaje especifico del dominio (DSL) basado en Groovy en vez de la forma XML utilizada por Apache Maven para declarar la configuración de proyecto.1​ Gradle utiliza un grafo acíclico dirigido ("DAG") para determinar el orden en el que las tareas pueden ser ejecutadas
 
 **4. Plantillas thymeleaf** 
 
-- permite	realizar la maquetación	HTML sin necesidad de que intervenga el	servidor
+Ficheros HTML (plantillas) que contienen código HTML junto con referencias a variables y funciones
+
+- Permite realizar la maquetación HTML sin necesidad de que intervenga el servidor
+- Completamente integradas con Spring
 
 **5. AngularJS**
+
+Es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.
+
 
 @wlopera/William Lopera - Nov 2018
 
