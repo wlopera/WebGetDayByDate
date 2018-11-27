@@ -6,10 +6,11 @@ Crear Aplicación con Spring MVC (ModelAndView), Spring Boot, uso de plantillas 
 - Spring MVC - MVC
 - Spring Boot
 - Gradle 
-- Plantillas thymeleaf
+- Plantillas thymeleaf [permite	realizar la maquetación	HTML sin necesidad de que intervenga el	servidor]
 - AngularJS
 
 @wlopera/William Lopera - Nov 2018
+
 
 ## Fuente
 
@@ -66,7 +67,7 @@ server:
 ***
 
 
-**3. ServiceDateApi.java: Servicio espuesto para 'calcular' el día de la semana dado dia/mes/annio**
+**3. ServiceDateApi.java: Servicio espuesto para 'calcular' el día de la semana dado dia/mes/año**
 
 ***
 ```
