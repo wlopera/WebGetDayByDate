@@ -13,7 +13,9 @@ Crear Aplicación con Spring MVC (ModelAndView), Spring Boot, uso de plantillas 
 
 ## Fuente
 
-**1. build.gradle**
+![captura](https://user-images.githubusercontent.com/7141537/49055142-8dd17a80-f1c4-11e8-9db2-cc083c9a996d.PNG)
+
+**1. build.gradle: Configuración de las tareas del proyecto**
 
 ***
 ```
@@ -40,7 +42,7 @@ repositories {
 ```
 ***
 
-**2. application.yml**
+**2. application.yml: Archivo de configutración de Spring Boot**
 
 ***
 ```
@@ -64,7 +66,7 @@ server:
 ***
 
 
-**3. ServiceDateApi.java**
+**3. ServiceDateApi.java: Servicio espuesto para 'calcular' el día de la semana dado dia/mes/annio**
 
 ***
 ```
@@ -79,7 +81,7 @@ public interface ServiceDateApi {
 ***
 
 
-**4. ServiceDateApiImpl.java**
+**4. ServiceDateApiImpl.java: Implementación de servicios**
 
 ***
 ```
@@ -116,7 +118,7 @@ public class ServiceDateApiImpl implements ServiceDateApi {
 ```
 ***
 
-**5. Wrapper.java**
+**5. Wrapper.java: Clase que empaqueta la respuesta en un Json**
 
 ***
 ```
@@ -145,7 +147,7 @@ public class Wrapper implements Serializable {
 ```
 ***
 
-**6. build.gradle**
+**6. DateController.java: Controlador uso de RestFull y Spring MVC y plantillas HTML**
 
 ***
 ```
@@ -221,7 +223,7 @@ public class DateController {
 ```
 ***
 
-**7. MainApp.java**
+**7. MainApp.java: Aplicación principal Spring BOOT**
 
 ***
 ```
@@ -266,7 +268,7 @@ public class MainApp {
 ```
 ***
 
-**8. service.js**
+**8. service.js: AngularJS para consumo de servicios - Conexión HTTP**
 
 ***
 ```
@@ -284,7 +286,7 @@ MyApp.factory('service', ['$http', function($http) {
 ```
 ***
 
-**9. App.js**
+**9. App.js: AngularJS para consumo de servicios y control de datos - modelo MVC**
 
 ***
 ```
@@ -319,7 +321,7 @@ MyApp.controller("MyController",["$scope", "service", function($scope, service){
 ```
 ***
 
-**10. index.html**
+**10. index.html: HTML principal uso de AngularJS - Vista**
 
 ***
 ```
@@ -374,7 +376,7 @@ MyApp.controller("MyController",["$scope", "service", function($scope, service){
 ```
 ***
 
-**11. date.html**
+**11. date.html: Uso de Thymeleaf - HTML 5**
 
 ***
 ```
@@ -393,21 +395,6 @@ MyApp.controller("MyController",["$scope", "service", function($scope, service){
 </html>
 ```
 ***
-
-**2. build.gradle**
-
-***
-```
-```
-***
-
-**2. build.gradle**
-
-***
-```
-```
-***
-
 
 ### Salida
 
