@@ -35,7 +35,7 @@ Ficheros HTML (plantillas) que contienen código HTML junto con referencias a va
 Es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.
 
 
-												@wlopera/William Lopera - Nov 2018
+										@wlopera/William Lopera - Nov 2018
 
 
 ## Fuente
