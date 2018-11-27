@@ -38,6 +38,16 @@ Es un framework de JavaScript de código abierto, mantenido por Google, que se u
 										@wlopera/William Lopera - Nov 2018
 
 
+Crear Aplicación con Spring MVC (ModelAndView), Spring Boot, uso de plantillas Thymeleaf y AngularJS
+
+- Spring MVC - MVC
+- Spring Boot
+- Gradle 
+- Plantillas thymeleaf
+- AngularJS
+
+@wlopera/William Lopera - Nov 2018
+
 ## Fuente
 
 ![captura](https://user-images.githubusercontent.com/7141537/49055142-8dd17a80-f1c4-11e8-9db2-cc083c9a996d.PNG)
