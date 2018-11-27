@@ -400,9 +400,11 @@ MyApp.controller("MyController",["$scope", "service", function($scope, service){
 
 ![captura1](https://user-images.githubusercontent.com/7141537/48982893-31803500-f0b6-11e8-9182-70b440984c00.PNG)
 
+
 ### Salida - Consulta fecha actual [Spring MVC - ModelAndView -> thymeleaf]
 
 ![captura](https://user-images.githubusercontent.com/7141537/49055193-bf4a4600-f1c4-11e8-9aa5-595d770c4432.PNG)
+
 
 
 ### En construcción 
