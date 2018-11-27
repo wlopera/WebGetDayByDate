@@ -3,11 +3,23 @@ Spring - MVC - Spring Boot - Gradle Angular
 
 Crear Aplicación con Spring MVC (ModelAndView), Spring Boot, uso de plantillas Thymeleaf y AngularJS
 
-- Spring MVC - MVC
-- Spring Boot
-- Gradle 
-- Plantillas thymeleaf [permite	realizar la maquetación	HTML sin necesidad de que intervenga el	servidor]
-- AngularJS
+**1. Spring MVC - MVC**
+
+El modelo vista controlador (MVC) separa los datos y la lógica de negocio de una aplicación de la interfaz de usuario.
+
+Patrón MVC en Spring:
+
+![captura](https://user-images.githubusercontent.com/7141537/49055876-48627c80-f1c7-11e8-94af-b58309009fe1.PNG)
+
+**2. Spring Boot**
+
+**3. Gradle**
+
+**4. Plantillas thymeleaf** 
+
+- permite	realizar la maquetación	HTML sin necesidad de que intervenga el	servidor
+
+**5. AngularJS**
 
 @wlopera/William Lopera - Nov 2018
 
