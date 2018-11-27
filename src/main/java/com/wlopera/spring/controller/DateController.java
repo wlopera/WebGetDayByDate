@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -55,15 +56,23 @@ public class DateController {
 		System.out.println("DateController -> getDateNow");
 
 		ModelAndView mav = new ModelAndView("date");
-		
-		//Fecha actual - formateada
-        LocalDateTime now = LocalDateTime.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
-    
+
+		// Fecha actual - formateada
+		LocalDateTime now = LocalDateTime.now();
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+
 		mav.addObject("date", now.format(formatter));
-		
+
 		return mav;
 
+	}
+
+	@RequestMapping("/date/processForm")
+	public ModelAndView process(@RequestParam String input) {
+
+		System.out.println("DateController -> process");
+
+		return new ModelAndView("result").addObject("result", input);
 	}
 
 }

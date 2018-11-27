@@ -6,8 +6,17 @@
 </head>
 
 <body>
+	<h1>FECHA ACTUAL</h1>
 	<p>
 		Fecha actual: <span th:text="${date}"></span>
 	</p>
+	
+	<hr>
+	<h1>Envío de información - Formulario - HTTP -> POST </h1>
+	<form action="/date/processForm" method="post">
+		<label for="input">Introduzca su nombre: </label> <input type="text" name="input"
+			id="input"> <input type="submit">
+	</form>
+
 </body>
 </html>
