@@ -1,9 +1,9 @@
 # WebGetDayByDate
-Spring - MVC - Spring Boot - Gradle Angular
+Spring - MVC - Spring Boot - Gradle - Angular
 
-Crear Aplicación con Spring MVC (ModelAndView), Spring Boot, uso de plantillas Thymeleaf y AngularJS
+Ejercicios mediante el uso de Spring MVC (ModelAndView), Spring Boot, plantillas Thymeleaf, AngularJS y uso de Gradle. 
 
-**1. Spring MVC - MVC**
+**1. Spring MVC**
 
 El modelo vista controlador (MVC) separa los datos y la lógica de negocio de una aplicación de la interfaz de usuario.
 
@@ -11,13 +11,16 @@ Patrón MVC en Spring:
 
 ![captura](https://user-images.githubusercontent.com/7141537/49055876-48627c80-f1c7-11e8-94af-b58309009fe1.PNG)
 
+
 **2. Spring Boot**
 
 Es una infraestructura ligera que elimina la mayor parte del trabajo de configurar las aplicaciones basadas en Spring.
 
+
 **3. Gradle**
 
 Es un sistema de automatización de construcción de código abierto que construye sobre los conceptos de Apache Ant y Apache Maven e introduce un lenguaje especifico del dominio (DSL) basado en Groovy en vez de la forma XML utilizada por Apache Maven para declarar la configuración de proyecto.1​ Gradle utiliza un grafo acíclico dirigido ("DAG") para determinar el orden en el que las tareas pueden ser ejecutadas
+
 
 **4. Plantillas thymeleaf** 
 
@@ -26,12 +29,13 @@ Ficheros HTML (plantillas) que contienen código HTML junto con referencias a va
 - Permite realizar la maquetación HTML sin necesidad de que intervenga el servidor
 - Completamente integradas con Spring
 
+
 **5. AngularJS**
 
 Es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.
 
 
-@wlopera/William Lopera - Nov 2018
+												@wlopera/William Lopera - Nov 2018
 
 
 ## Fuente
